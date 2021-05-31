@@ -29,7 +29,7 @@ function App() {
   }
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column' }}>
+    <div style={{ display: 'flex', flexDirection: 'column', width:'10%', height:'10%'}}>
       <button onClick={fetchData} disabled={loading} style={{ width: '100px', margin: '1rem' }}>
         Fetch Data
       </button>
